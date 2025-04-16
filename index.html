@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Joanne Funky Resume</title>
   </head>
+
   <body>
     <div class="name-photo-description">
       <div class="photo">
-        <img src="./assets/profile.JPG" alt="Jojo Photo" />
+        <img id="movingImg" src="./assets/profile.JPG" alt="Jojo Photo" />
       </div>
 
       <div class="name-description">
@@ -37,48 +38,61 @@
     <div class="education">
       <h2>Education</h2>
 
-      <p>Rosa Parks Highschool</p>
-      <ul>
-        <li>Maths, Physics, Chemistry</li>
-      </ul>
+      <div class="highschool">
+        <p>Rosa Parks Highschool</p>
+        <ul>
+          <li>Maths, Physics, Chemistry</li>
+        </ul>
+      </div>
 
-      <p>CY Ecole de Design / CY Tech</p>
-      <ul>
-        <li>Computer science and design dual degree</li>
-      </ul>
+      <div class="graduate">
+        <p>CY Ecole de Design / CY Tech</p>
+        <ul>
+          <li>Computer science and design dual degree</li>
+        </ul>
+      </div>
     </div>
 
     <div class="experiences">
       <h2>Experience</h2>
-      <p>City Hall: tremplin citoyen</p>
-      <ul>
-        <li>Preparation of municipal events.</li>
-        <li>
-          Supervision, coordination, and participation in recreational
-          activities.
-        </li>
-        <li>Visitor retention through customer-focused actions.</li>
-      </ul>
 
-      <p>Viapost : press operator</p>
-      <ul>
-        <li>Parcel sorting at intake.</li>
-        <li>
-          Teamwork for truck loading, out-of-scope parcel sorting, item
-          collection, and room setup.
-        </li>
-      </ul>
+      <div class="tremplin">
+        <p>City Hall: tremplin citoyen</p>
+        <ul>
+          <li>Preparation of municipal events.</li>
+          <li>
+            Supervision, coordination, and participation in recreational
+            activities.
+          </li>
+          <li>Visitor retention through customer-focused actions.</li>
+        </ul>
+      </div>
 
-      <p>City Hall : receptionist</p>
-      <ul>
-        <li>
-          Reception and guidance of the public to various municipal services.
-        </li>
-        <li>
-          Scheduling appointments, preparing necessary documents for different
-          departments, and managing access to these services.
-        </li>
-      </ul>
+      <div class="viapost">
+        <p>Viapost : press operator</p>
+        <ul>
+          <li>Parcel sorting at intake.</li>
+          <li>
+            Teamwork for truck loading, out-of-scope parcel sorting, item
+            collection, and room setup.
+          </li>
+        </ul>
+      </div>
+
+      <div class="receptionist">
+        <p>City Hall : receptionist</p>
+        <ul>
+          <li>
+            Reception and guidance of the public to various municipal services.
+          </li>
+          <li>
+            Scheduling appointments, preparing necessary documents for different
+            departments, and managing access to these services.
+          </li>
+        </ul>
+      </div>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
